@@ -1,0 +1,11 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using ShipmentAggregator.Models;
+global using ShipmentAggregator.Interfaces;
+global using ShipmentAggregator.Services;
+global using Microsoft.Extensions.Caching.Distributed;
+global using System.Collections.Concurrent;
+global using System.Text;
+global using Newtonsoft.Json;
+global using System.Net;
+global using ShipmentAggregator.Exceptions;
+global using ShipmentAggregator.Factory;
